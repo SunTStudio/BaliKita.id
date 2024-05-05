@@ -1,0 +1,3 @@
+untuk menjalankan cukup klik atau drag&drop index.html ke browser chrome Anda.
+
+Terimakasih

@@ -1,0 +1,155 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+#header{
+    background-image: url(Assets/parallax/BgDefault.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#gapura{
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+}
+
+#daratan{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+#kuilKiri{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+#kuilKanan{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+#bungaKanan{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    height: 8rem;
+    object-fit: cover;
+}
+
+#bungaKiri{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li{
+    margin-left: 2rem;
+}
+
+#headlineText{
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+#searchEngine select{
+    width: 20rem;
+}
+
+#introWeb{
+    opacity: 0%;
+}
+
+#daerah{
+    opacity: 0%;
+}
+
+#searchEngine{
+    opacity: 0%;
+}
+
+#kontenBudaya{
+    opacity: 0%;
+}
+
+
+#kanan2{
+    position: absolute;
+    right: 5%;
+}
+
+#kiri2{
+    position: absolute;
+    left: 5%;
+}
+
+#gapuraKanan{
+    position: absolute;
+    right: -10%;
+    height: 30rem;
+}
+
+#gapuraKiri{
+    position: absolute;
+    height: 30rem;
+    left: -10%;
+}
+
+
+#daunKanan{
+    position: absolute;
+    right:  0%;
+    height: 32rem;
+}
+
+#daunKiri{
+    position: absolute;
+    height: 32rem;
+    left: 0%;
+}
+
+#testimoniPage{
+    opacity: 0%;
+
+}
+
+#introWeb img{
+    height: 80vh;
+}
+
+#menuVisiMisi p span{
+    text-decoration: none;
+    color: #353535;
+    cursor: pointer;
+}
+
+#menuVisiMisi p span:hover{
+    border-bottom: 2px solid #343484;
+    text-decoration: none;
+    color: #343484;
+}
+
+.activeVisiMisi{
+    border-bottom: 2px solid #343484;
+    text-decoration: none;
+    color: #343484;
+}
+
+#visiMisi p{
+    line-height: 1.6;
+}
+
+#kontenBudaya img{
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BaliKita.id</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="responsif.css">
+</head>
+
+<body>
+  <!-- header -->
+  <section id="header" class="d-flex align-items-center">
+    <div class="container" id="navbar">
+      <nav class="navbar navbar-expand-lg fixed-top mt-3 ms-5 me-5 ps-3 pe-3  rounded " data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-medium" href="#"><img src="Assets/logoDark.png" alt="" class="img-fluid"
+              style="width:10rem;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active fw-medium" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-medium" href="#introWeb">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-medium" href="#daerah">Daerah</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-medium" href="#searchEngine">Rekomendasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  fw-medium" href="#testimoni">Kontak</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container ">
+      <div class="row d-flex align-items-center justify-content-start">
+        <div class="col-10">
+          <p class="h1 fw-bold  text-white me-5" id="headlineText">`Tembus Keindahan Budaya Bali: Eksplorasi Mendalam di
+            Tepi Pulau Dewata!`</p>
+        </div>
+        <div class="imgDecoration">
+          <img src="Assets/parallax/bgHeader/kuil.png" alt="" id="kuilKanan" class="img-fluid">
+          <img src="Assets/parallax/bgHeader/kuil.png" alt="" id="kuilKiri" class="img-fluid">
+          <img src="Assets/parallax/bgHeader/gapura.png" alt="" id="gapura" class="img-fluid">
+          <img src="Assets/parallax/bgHeader/daratankiri.png" alt="" id="daratan" class="img-fluid">
+          <img src="Assets/parallax/bgHeader/awan.png" alt="" id="awan" class="img-fluid">
+          <img src="Assets/parallax/bgHeader/bungakiri.png" alt="" id="bungaKiri" class="" img-fluid>
+          <img src="Assets/parallax/bgHeader/bungakanan.png" alt="" id="bungaKanan" class="" img-fluid>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- header -->
+
+
+  <!-- introWeb -->
+  <section id="introWeb" class="mb-5" style="padding-top: 6rem;">
+    <div class="container">
+      <div id="imgIntroParallax">
+        <img src="Assets/parallax/kanan2.png" alt="" id="kanan2" class="img-fluid">
+        <img src="Assets/parallax/kiri2.png" alt="" id="kiri2" class="img-fluid">
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-sm-7 text-center">
+          <img class="img-fluid"
+            src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" id="imgVisiMisi">
+        </div>
+        <div class="col-lg-5 col-sm-7">
+          <h2 class="text-center mt-5 fst-italic fw-bold">Kenali BaliKita.id</h2>
+          <div class="mt-3 text-center" id="menuVisiMisi">
+            <p class="h5"><span id="visi" class="ps-5 pe-5 fw-medium activeVisiMisi" onclick="visi()">Visi</span> |
+              <span id="misi" class="ps-5 pe-5 fw-medium" onclick="misi()">Misi</span>
+            </p>
+          </div>
+          <div class="mt-5 text-center" id="visiMisi">
+            <p class="fw-normal pe-5 ps-5 h5 fst-italic" id="isiVisiMisi">
+              `Menjadi sumber utama informasi dan promosi kekayaan budaya dan keindahan alam dari setiap daerah di Bali,
+              sehingga memperkuat identitas budaya lokal dan meningkatkan kesadaran akan pentingnya pelestarian warisan
+              budaya Bali.`
+            </p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- introWeb -->
+
+
+  <!-- daerah web -->
+  <section id="daerah" style="padding-top: 4rem;">
+    <div class="container">
+      <div id="imgDaerahParallax">
+        <img src="Assets/parallax/kanan1.png" alt="" id="gapuraKanan" class="img-fluid">
+        <img src="Assets/parallax/kiri1.png" alt="" id="gapuraKiri" class="img-fluid">
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <h1 class="text-center m-5 fst-italic fw-bold">Kenali Budaya Daerah Bali</h1>
+          <h5 class="text-center mb-5  fw-normal">Pilih Wisata atau Budaya dari Salah Satu Daerah di Bali :</h5>
+          <div class="kategoriDaerah">
+            <div class="row justify-content-center">
+              <div class="col text-center">
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Denpasar</a>
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Kuta</a>
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Seminyak</a>
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Ubud</a>
+              </div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+              <div class="col text-center">
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Canggu</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Jimbaran</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Nusa Dua</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Sanur</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Tabanan</a>
+              </div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+              <div class="col text-center">
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Lovina</a>
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Amed</a>
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Candidasa</a>
+                <a href="#searchEngine" class="btn btn-outline-secondary me-2">Singaraja</a>
+              </div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+              <div class="col text-center">
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Gianyar</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Mengwi</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Klungkung</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Bangli</a>
+                <a href="#searchEngine" class="btn btn-outline-success me-2">Karangasem</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- daerah web -->
+
+  <!-- Search Budaya -->
+  <section id="searchEngine" style="padding-top: 7rem;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <h2 class="text-center fw-bold fst-italic">Temukan Budaya Bali Favorit Kamu!</h2>
+          <div class="mt-4" id="search">
+            <form class="d-flex" role="search">
+              <select class="form-select" name="daerahkah" id="daerahkah" aria-label="Default select example">
+                <option>Daerah</option>
+                <option value="Denpasar">Denpasar</option>
+                <option value="Kuta">Kuta</option>
+                <option value="Ubud">Ubud</option>
+                <option value="Seminyak">Seminyak</option>
+                <option value="Canggu">Canggu</option>
+                <option value="Jimbaran">Jimbaran</option>
+                <option value="Nusa Dua">Nusa Dua</option>
+                <option value="Sanur">Sanur</option>
+                <option value="Tabanan">Tabanan</option>
+                <option value="Lovina">Lovina</option>
+                <option value="Amed">Amed</option>
+                <option value="Candidasa">Candidasa</option>
+                <option value="Singaraja">Singaraja</option>
+                <option value="Gianyar">Gianyar</option>
+                <option value="Mengwi">Mengwi</option>
+                <option value="Klungkung">Klungkung</option>
+                <option value="Bangli">Bangli</option>
+                <option value="Karangasem">Karangasem</option>
+              </select>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Search Budaya -->
+
+  <section id="kontenBudaya" class="mt-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-5 mb-2 m-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="Assets/kontenSearch/pantaiKuta.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-end">
+              <div class="info text-start">
+                <small class="float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-regular fa-star"></i></small>
+                <h5 class="card-title fw-bold">Pantai Kuta</h5>
+                <div class="subKonten d-flex justify-content-between mb-3">
+                  <small class="card-text"><i class="bi bi-pin-map"></i> Kuta, Bali</small>
+                  <small class="card-text"><i class="fa-solid fa-gopuram"></i> Pantai</small>
+                </div>
+                <p class="card-text fw-medium p-0 m-0"><i class="fa-solid fa-door-open"></i> Buka Setiap Hari</p>
+                <p class="card-text fw-medium"><i class="fa-regular fa-clock"></i> 08.00 - 16.00 WIB</p>
+              </div>
+              <div class="tombolKonten text-center">
+                <a href="#" class="btn btn-warning mt-3"><i class="fa-solid fa-triangle-exclamation"></i></a>
+                <a href="detailKonten.html" class="btn btn-primary mt-3">Selengkapnya</a>
+                <a href="#" class="btn btn-secondary mt-3"><i class="bi bi-share-fill text-white "></i></a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 mb-2 m-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="Assets/kontenSearch/TariKecak.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-end">
+              <div class="info text-start">
+                <small class="float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-regular fa-star"></i></small>
+                <h5 class="card-title fw-bold">Tari Kecak</h5>
+                <div class="subKonten d-flex justify-content-between mb-3">
+                  <small class="card-text"><i class="bi bi-pin-map"></i> Kuta, Bali</small>
+                  <small class="card-text"><i class="fa-solid fa-gopuram"></i> Tari</small>
+                </div>
+                <p class="card-text fw-medium p-0 m-0"><i class="fa-solid fa-door-open"></i> Buka Setiap Hari</p>
+                <p class="card-text fw-medium"><i class="fa-regular fa-clock"></i> 08.00 - 16.00 WIB</p>
+              </div>
+              <div class="tombolKonten text-center">
+                <a href="#" class="btn btn-warning mt-3"><i class="fa-solid fa-triangle-exclamation"></i></a>
+                <a href="detailKonten.html" class="btn btn-primary mt-3">Selengkapnya</a>
+                <a href="#" class="btn btn-secondary mt-3"><i class="bi bi-share-fill text-white "></i></a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 mb-2 m-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="Assets/kontenSearch/DesaUbud.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-end">
+              <div class="info text-start">
+                <small class="float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-regular fa-star"></i></small>
+                <h5 class="card-title fw-bold">Desa Ubud</h5>
+                <div class="subKonten d-flex justify-content-between mb-3">
+                  <small class="card-text"><i class="bi bi-pin-map"></i> Kuta, Bali</small>
+                  <small class="card-text"><i class="fa-solid fa-gopuram"></i> Desa</small>
+                </div>
+                <p class="card-text fw-medium p-0 m-0"><i class="fa-solid fa-door-open"></i> Buka Setiap Hari</p>
+                <p class="card-text fw-medium"><i class="fa-regular fa-clock"></i> 08.00 - 16.00 WIB</p>
+              </div>
+              <div class="tombolKonten text-center">
+                <a href="#" class="btn btn-warning mt-3"><i class="fa-solid fa-triangle-exclamation"></i></a>
+                <a href="detailKonten.html" class="btn btn-primary mt-3">Selengkapnya</a>
+                <a href="#" class="btn btn-secondary mt-3"><i class="bi bi-share-fill text-white "></i></a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-lg-3 col-md-5 mb-2 m-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="Assets/kontenSearch/TariBarong.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-end">
+              <div class="info text-start">
+                <small class="float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-regular fa-star"></i></small>
+                <h5 class="card-title fw-bold">Tari Barong</h5>
+                <div class="subKonten d-flex justify-content-between mb-3">
+                  <small class="card-text"><i class="bi bi-pin-map"></i> Kuta, Bali</small>
+                  <small class="card-text"><i class="fa-solid fa-gopuram"></i> Tari</small>
+                </div>
+                <p class="card-text fw-medium p-0 m-0"><i class="fa-solid fa-door-open"></i> Buka Setiap Hari</p>
+                <p class="card-text fw-medium"><i class="fa-regular fa-clock"></i> 08.00 - 16.00 WIB</p>
+              </div>
+              <div class="tombolKonten text-center">
+                <a href="#" class="btn btn-warning mt-3"><i class="fa-solid fa-triangle-exclamation"></i></a>
+                <a href="detailKonten.html" class="btn btn-primary mt-3">Selengkapnya</a>
+                <a href="#" class="btn btn-secondary mt-3"><i class="bi bi-share-fill text-white "></i></a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 mb-2 m-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="Assets/kontenSearch/PuraBesakih.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-end">
+              <div class="info text-start">
+                <small class="float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-regular fa-star"></i></small>
+                <h5 class="card-title fw-bold">Pura Besakih</h5>
+                <div class="subKonten d-flex justify-content-between mb-3">
+                  <small class="card-text"><i class="bi bi-pin-map"></i> Kuta, Bali</small>
+                  <small class="card-text"><i class="fa-solid fa-gopuram"></i> Temple</small>
+                </div>
+                <p class="card-text fw-medium p-0 m-0"><i class="fa-solid fa-door-open"></i> Buka Setiap Hari</p>
+                <p class="card-text fw-medium"><i class="fa-regular fa-clock"></i> 08.00 - 16.00 WIB</p>
+              </div>
+              <div class="tombolKonten text-center">
+                <a href="#" class="btn btn-warning mt-3"><i class="fa-solid fa-triangle-exclamation"></i></a>
+                <a href="detailKonten.html" class="btn btn-primary mt-3">Selengkapnya</a>
+                <a href="#" class="btn btn-secondary mt-3"><i class="bi bi-share-fill text-white "></i></a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-5 mb-2 m-4">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="Assets/httpsunsplash.comphotosangkor-wat-bangkok-thailand-z3NhWL4O39Q.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body text-end">
+              <div class="info text-start">
+                <small class="float-end"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-regular fa-star"></i></small>
+                <h5 class="card-title fw-bold">Candi Seribu</h5>
+                <div class="subKonten d-flex justify-content-between mb-3">
+                  <small class="card-text"><i class="bi bi-pin-map"></i> Kuta, Bali</small>
+                  <small class="card-text"><i class="fa-solid fa-gopuram"></i> Temple</small>
+                </div>
+                <p class="card-text fw-medium p-0 m-0"><i class="fa-solid fa-door-open"></i> Buka Setiap Hari</p>
+                <p class="card-text fw-medium"><i class="fa-regular fa-clock"></i> 08.00 - 16.00 WIB</p>
+              </div>
+              <div class="tombolKonten text-center">
+                <a href="#" class="btn btn-warning mt-3"><i class="fa-solid fa-triangle-exclamation"></i></a>
+                <a href="detailKonten.html" class="btn btn-primary mt-3">Selengkapnya</a>
+                <a href="#" class="btn btn-secondary mt-3"><i class="bi bi-share-fill text-white "></i></a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="sponsor" class="slide bg-sponsor pt-3 pb-4 mb-5"
+    style="background-color:#343484;padding-top: 4rem; margin-top:10rem;">
+    <p class="fw-medium fst-italic text-center fs-4 text-light pb-2">DIDUKUNG OLEH</p>
+    <div class="autoplay d-flex">
+      <div><img src="Assets/sponsor/sponsor1.png" alt=""></div>
+      <div><img src="Assets/sponsor/sponsor2.png" alt=""></div>
+      <div><img src="Assets/sponsor/sponsor3.png" alt=""></div>
+      <div><img src="Assets/sponsor/sponsor4.png" alt=""></div>
+      <div><img src="Assets/sponsor/sponsor5.png" alt=""></div>
+      <div><img src="Assets/sponsor/sponsor6.png" alt=""></div>
+      <div><img src="Assets/sponsor/sponsor7.png" alt=""></div>
+      <div><img src="Assets/sponsor/sponsor8.png" alt=""></div>
+    </div>
+  </section>
+
+  <section id="testimoniPage" style="padding-top: 2rem;">
+    <div class="imgTestimoniParallax">
+      <img src="Assets/parallax/daunKanan.png" alt="" id="daunKanan" class="img-fluid">
+      <img src="Assets/parallax/daunKiri.png" alt="" id="daunKiri" class="img-fluid">
+    </div>
+    <h2 class="text-center m-5 fst-italic fw-bold">Bagikan Testimoni Anda</h2>
+    <div id="inputTestimoni" class="mb-5">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-6 rounded">
+            <form action="#testimoniPage" class="form-control text-light p-4" style="background-color:#343484;">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nama Anda</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" >
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Tulis Testimoni Anda</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="mb-2 mt-2 text-end">
+                <button type="submit" class="btn btn-secondary">Kirim</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="testimoni" style="padding-bottom:4rem;padding-top: 5rem; margin-top:7rem; background-color:#f8f9fa;">
+      <h2 class="text-center  fst-italic fw-bold">Testimoni Kami</h2>
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5">
+            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
+              <p id="isiTestimoni">`Wah Website ini sangat membantu kami mencari wisata tebaik di Bali!`</p>
+            </div>
+          </div>
+          <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5">
+            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
+              <p id="isiTestimoni">`Wah Website ini sangat membantu kami mencari wisata tebaik di Bali!`</p>
+            </div>
+          </div>
+          <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5">
+            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
+              <p id="isiTestimoni">`Wah Website ini sangat membantu kami mencari wisata tebaik di Bali!`</p>
+            </div>
+          </div>
+          <div class="col-5 p-4 shadow  rounded bg-white me-4 mt-5">
+            <p id="namaTestimoni" class="fw-bold "><i class="bi bi-person-circle fs-3"></i> Mahsun Badrutamam</p>
+            <p id="tglTestimoni"><small>20 September 2024</small></p>
+            <div id="kanvasIsi" class="d-flex align-items-center" style="height:20vh;">
+              <p id="isiTestimoni">`Wah Website ini sangat membantu kami mencari wisata tebaik di Bali!`</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="footer-bg-top" style="background-color: #343484;">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 pt-5">
+            <img src="Assets/logoLight.png" class="img-fluid " width="30%" alt="">
+          </div>
+          <div class="col-lg-5">
+            <p class="text-light fw-light mt-4">Jelajahi Keunikan Bali: Situs Pengetahuan Terkini tentang Tradisi, Seni,
+              dan Kearifan Lokal Pulau Dewata</p>
+          </div>
+          <div class="col-lg-7 text-end pt-3">
+            <p class="text-end text-light fw-lighter ">Connect With Us</p>
+            <img src="Assets/sosmed/facebook.png" class="img-fluid me-1" alt="">
+            <img src="Assets/sosmed/x.png" class="img-fluid me-1" alt="">
+            <img src="Assets/sosmed/instagram.png" class="img-fluid me-1" alt="">
+            <img src="Assets/sosmed/linkedin.png" class="img-fluid me-1" alt="">
+            <img src="Assets/sosmed/youtube.png" class="img-fluid me-1" alt="">
+          </div>
+          <hr class="border border-white mt-3">
+          <p class="fw-lighter text-light mb-4">Copyright @ 2024 BaliKita.id. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+
+  <script src="script.js"></script>
+  <script src="parallax.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.autoplay').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        prevArrow: false, // Menyembunyikan tombol "Previous"
+        nextArrow: false, // Menyembunyikan tombol "Next"
+        centerMode: true, // Aktifkan mode tengah
+      });
+    });
+  </script>
+</body>
+
+</html>

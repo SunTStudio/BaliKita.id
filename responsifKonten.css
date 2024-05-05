@@ -1,0 +1,19 @@
+/* Untuk perangkat desktop */
+@media only screen and (min-width: 1024px) {
+  /* Atur gaya CSS untuk desktop di sini */
+}
+
+/* Untuk perangkat tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Atur gaya CSS untuk tablet di sini */
+}
+
+/* Untuk perangkat smartphone */
+@media only screen and (max-width: 767px) {
+  /* Atur gaya CSS untuk smartphone di sini */
+  #hargaTour{
+    font-size: 1rem;
+  }
+
+  
+}
